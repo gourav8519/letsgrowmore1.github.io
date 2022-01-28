@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gilroy';
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{ 
+  
+    
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(182, 89, 27);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+#nav h1{
+    margin-left: 30px;
+}
+#nav i{
+    margin-left: 1050px;
+}
+#nav>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+#onetext{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 300px;
+    /* background-color:wheat ; */
+}
+#onetext p{
+    margin-top: 30px;
+   text-transform: capitalize;
+    color: white;
+    font-size: 10px;
+    
+
+}
+#onetext h4{
+    text-transform: capitalize;
+     color: white;
+     font-size: 50px;
+ }
+ button{
+     position: absolute;
+     left: 10%;
+     top: 60%;
+     width:160px;
+     background-color: rgb(248, 245, 243);
+     opacity: 80%;
+     border-radius: 50px;
+ }
+ button i{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+     color: rgb(206, 192, 192);
+ }
+ span{
+     font-size: 20px;
+     line-height: 15px;
+     font-weight: 500;
+ }
+ button>i{
+     font-size: 20px;
+     color: black;
+ }
+ 
+
+#oneimg{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    background-image:url(https://images.unsplash.com/photo-1486976862325-fbac7b41739b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#row{
+    width: 100%;
+    min-height: 50vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+    background-color: white;
+}
+.one{ 
+    display: flex;
+    padding: 70px 0;
+    text-align:left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+   min-height: inherit;
+    background-color: white;
+    
+
+}
+#textdiv{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.one>a{ 
+    
+    color: white;
+    width: 40px;
+    border-radius: 600px;
+    background-color: red;
+    text-decoration: none;
+
+    font-size: 25px;
+}
+.one i{
+margin-left: 10px;
+
+ font-size: 20px;
+
+}
+p{
+
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+h6{
+    letter-spacing: 2px;
+}
+#seconddiv{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(59, 58, 58);
+}
+#left{
+    
+    width: 50%;
+    height: 50vh;
+    background-color:#40a2bbb9;
+}
+#right{
+    width: 50%;
+    height: 50vh;
+    background-color: lawngreen;
+    background-image: url(https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    background-position: 0 75%;
+}
+#seconddiv h1{
+position: absolute;
+left: 50%;
+top: 3%;
+transform: translate(-50%,0);
+text-transform: capitalize;
+letter-spacing: 2px;
+font-size: 50px;
+color: white;
+
+}
+#text{
+    position: absolute;
+    top: 17%;
+    left: 15%;
+    
+    width: 500px;
+    height: 250px;
+    /* background-color: blanchedalmond; */
+}
+#text h2{
+    text-transform: capitalize;
+    margin-top: 20px;
+margin-left: 22px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#text p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+
+}
+#row2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(15, 15, 15);
+    
+}
+  .two1{ 
+     width: 33%;
+     background-color: lightsalmon;
+     height: 50vh;
+     background-image: url(https://images.unsplash.com/photo-1599202860130-f600f4948364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+     background-size: cover;
+     background-position:0 43%;
+ } 
+ .two2{ 
+    width: 33%;
+    background-color: lightsalmon;
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1587573578274-184d5ccabfc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position:0 43%;
+} 
+.two3{ 
+    width: 33%;
+    background-color: lightsalmon;
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1548345680-f5475ea5df84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80);
+    background-size: cover;
+    background-position:0 43%;
+} 
+ #third{
+     position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(24, 22, 22);
+}
+#form{ 
+    padding-left: 220px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50%;
+    height:70vh;
+    background-color: rgb(230, 29, 29);
+}
+#third .four{
+    width: 300px;
+    height: 30px;
+    
+}
+#form h2{
+    text-transform: capitalize;
+    font-size: 10px;
+}
+#form h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: capitalize;
+    /* padding-left: 50px;
+    padding-top: 50px; */
+}
+#form h2{
+    color: white;
+    font-weight: 100px;
+}
+#form #five{
+    background-color:rgb(66, 66, 209);
+    width: 100px;
+    height: 25px;
+}
+#third #one{
+    width: 300px;
+    height: 70px;
+}
+#line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70vh;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(248, 245, 243);
+}
+
+#third #line>h3{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+@media(max-width:450px){
+    #row{
+        flex-direction: column;
+    }
+    .one{
+        
+        width: 100%;
+        
+    }
+    #textdiv{
+    
+        margin-left: 70px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    #overlay{
+        width: 100%;
+        min-height:200vh ;
+        background-color:rgba(163, 94, 48, 0.7);
+    }
+      #nav>a{
+          display: none;
+      }
+      #nav>i{
+          margin-left: 170px;
+      }
+    #onetext{
+        width: 510px;
+        margin-top: 50px;
+    }
+button{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+      #onetext p{
+        margin-top: 26px;
+       text-transform: capitalize;
+        color: white;
+        font-size: 10px;
+        margin-left: 153px;
+        
+    
+    }
+    #onetext h4{
+        margin-top: 40px;
+        text-transform: capitalize;
+         color: white;
+         font-size: 25px;
+         margin-left: 150px;
+     }
+     #onetext h5{
+        margin-top:30px;
+        text-transform: capitalize;
+         color: white;
+         font-size: 25px;
+         margin-left:270px ;
+     }
+     #seconddiv{
+         flex-direction: column;
+        min-height: 70px; 
+     }
+     #left{
+         width: 100%;
+         height: 50vh;
+     }
+     #right{
+         width: 100%;
+     }
+     #seconddiv h1{
+         font-size: 15px;
+         left: 40%;
+         letter-spacing: 2px;
+         transform: translate(-50%,-50%);
+         top: 6%;
+         left: 180px;
+     }
+     #text{
+         width: 100%;
+         left: 0;
+         margin-top: -60px;
+     }
+     #row2{
+         flex-direction: column;
+         display: none;
+         
+     }
+     .two {
+         width: 100%;
+         margin-top: 20px;
+     }
+     #third{
+         flex-direction: column;
+     }
+     #form{ 
+        padding-left: 40px;
+        
+        left:50%;
+        transform: translate(-50%,0);
+        width:100%;
+        height: 70vh;
+        background-color:red;
+    }
+     #form h1{
+           margin-top: 20px;
+          left:40%;
+        letter-spacing: 2px;
+         font-size: 20x;
+     }
+     #third #line>h3{
+        color:black;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    
+    }
+     
